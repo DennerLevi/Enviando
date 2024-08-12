@@ -1,0 +1,72 @@
+/* Estilos para TelaPrincipal */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 50px 80px;
+    border-radius: 15px;
+    box-shadow: none; /* Removendo sombras */
+    width: auto;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.results-area {
+    width: 100%;
+    background-color: #ffffff; /* Fundo branco para a área de resultados */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0; /* Bordas sutis */
+}
+
+.table-header {
+    display: flex;
+    background-color: #fafafa; /* Fundo mais claro para o cabeçalho */
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Linha divisória mais sutil */
+    font-weight: bold;
+}
+
+.table-cell {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.table-row {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0; /* Linhas divisórias mais claras para cada linha de dados */
+}
+.sorting-controls button {
+    background-color: #4b4242;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.sorting-controls button:hover {
+    background-color: #e0e0e0;
+}
